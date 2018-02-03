@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="main.css" type="text/css" />
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    </head>
+    
+    
+    <body>
+        <div id="app">
+            <p>{{ name }} - {{ age }}</p>
+            <p>{{ ageTimes3() }}</p>
+            <p>{{ randomNum() }}</p>
+            <input type="text" v-bind:value="name"/>
+            <img v-bind:src="img">
+            
+        </div>
+        
+    <script src="main.js"></script>
+    </body>
+</html>
